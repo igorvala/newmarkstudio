@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newmark Studio | Hero 3D</title>
+    <meta
+      name="description"
+      content="Hero section imersiva com sensação 3D, glow cinematográfico e animações suaves para impressionar clientes."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="hero" id="hero">
+      <canvas id="starfield" aria-hidden="true"></canvas>
+      <div class="glow glow--a" aria-hidden="true"></div>
+      <div class="glow glow--b" aria-hidden="true"></div>
+
+      <header class="topbar">
+        <span class="brand">NEWMARK STUDIO</span>
+        <a href="#contato" class="menu-link">Falar com especialista</a>
+      </header>
+
+      <section class="hero-content">
+        <p class="kicker">Experiência digital premium</p>
+        <h1>
+          Um hero com presença <span>3D cinematográfica</span>
+          que prende o olhar.
+        </h1>
+        <p class="subtitle">
+          Design com profundidade, iluminação dinâmica e microinterações para
+          transmitir qualidade de alto padrão desde o primeiro segundo.
+        </p>
+        <div class="cta-group">
+          <a href="#portfolio" class="btn btn--primary">Ver projetos</a>
+          <a href="#contato" class="btn btn--ghost">Solicitar proposta</a>
+        </div>
+      </section>
+
+      <aside class="hero-card" id="tilt-card" aria-label="Destaque de performance visual">
+        <p class="card-label">Visual Impact</p>
+        <h2>4K Ready</h2>
+        <p>
+          Render suave em telas grandes, contraste forte e atmosfera premium para
+          reforçar autoridade da marca.
+        </p>
+        <div class="card-stats">
+          <div>
+            <span>120fps</span>
+            <small>Animação</small>
+          </div>
+          <div>
+            <span>3D Feel</span>
+            <small>Profundidade</small>
+          </div>
+          <div>
+            <span>Ultra HD</span>
+            <small>Resolução</small>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
